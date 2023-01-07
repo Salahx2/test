@@ -1,0 +1,229 @@
+body{
+    background-color: #051B2B;
+}
+.Poste{
+    border-radius:10px;
+    background-color: #051B2B;
+    height:auto;
+    margin:10px;
+    box-shadow: 05px 05px 05px #ff1b6f;
+    padding: 5px;
+    width: -webkit-fill-available;
+}
+.Poste:hover{
+    box-shadow: 05px 05px 05px #bfbcbc;
+}
+.h3, h3{
+    padding:15px;
+    margin-left:30px;
+    border-left: 3px solid #ff1b6f;
+    font-family: monospace;
+    font-weight:bold;
+    font-size: 18px;
+    color:#1b446c;
+}
+.profile_picture{
+    width:350px;
+    height:350px;
+}
+h4{
+    margin-left:2px;
+    display: inline;
+    font-family: monospace;
+    color:black;
+    font-size: 18px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration:none;
+    color:aquamarine;
+}
+.like:hover{
+	color:#ff1b6f;
+}
+.fa fa-heart{
+    width: 100px;
+    height: 100px;
+}
+p.fa fa-globe-africa{
+    color: #1b446c;
+}
+.h6, h6{
+    margin-left:50px;
+    color:#9b9b9b;
+    font-family:monospace;
+    font-size: 12px;
+}
+h6:hover{
+    font-size: 14px;
+}
+.nav{
+	margin:20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color:#ff1b6f;
+}
+.nav-link{
+	color:#1b446c;
+}
+.nav-link:hover{
+	color:#ff1b6f;
+}
+.username{
+    display: contents;
+    font-family: monospace;
+    color:#ff1b6f;
+
+}
+.btn-primary{
+    padding: 10px;
+    margin: 10px;
+    width: -webkit-fill-available;
+    background-color: #ff1b6f;
+    border-color: #ff1b6f;
+    font-family: monospace;
+}
+.btn-primary:hover{
+    background-color:white;
+    border-color:white;
+    font-family: monospace;
+    color: #ff1b6f;
+
+}
+.form-control:hover{
+    color: #1b446c;
+}
+.Footer{
+    padding: 20px;
+    display: -webkit-box;
+}
+.footer_items{
+    padding: 5px;
+    font-family: monospace;
+    color: #1b446c;
+}
+.footer_items:hover{
+    color:#ff1b6f;
+}
+.copyright{
+    font-family: monospace;
+    font-size: 12px;
+    color: gray;
+}
+.About {
+    margin: 15px;
+    box-shadow: 5px 5px 5px #ff1b6f;
+    border-radius: 10px;
+    height: auto;
+    padding: 35px;
+}
+.About:hover{
+    box-shadow: 3px 3px 3px #ff1b6f;
+}
+h5.h5{
+    font-family: monospace;
+    color: white;
+    font-size: large;
+}
+#About{
+    text-align: center;
+    color: #ff1b6f;
+    font-family: monospace;
+}
+.footer{
+  background: #051B2B;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#ff1b6f;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#ff1b6f}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+svg.svg-inline--fa.fa-facebook.fa-w-16,svg.svg-inline--fa.fa-twitter.fa-w-16,svg.svg-inline--fa.fa-instagram.fa-w-14 {
+    height: 50px;
+    width: 50px;
+    color:#ff1b6f;
+}
+svg.svg-inline--fa.fa-facebook.fa-w-16:hover,svg.svg-inline--fa.fa-twitter.fa-w-16:hover,svg.svg-inline--fa.fa-instagram.fa-w-14:hover {
+    height: 45px;
+    width: 45px;
+    color:white;
+}
+.text-white-50 {
+    --bs-text-opacity: 1;
+    color: #607d8b!important;
+    font-family: monospace;
+}
+.h2, h2 {
+    font-size: 2rem;
+    font-family: monospace;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+.mb-0 {
+    margin-bottom: 0!important;
+    font-family: monospace;
+}
+a {
+    text-decoration: none;
+    color: #e91e63;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+img.rounded.mx-auto.d-block {
+    width: 300px;
+    height: 300px;
+}
+input#floatingInput {
+    color: #051B2B;
+    font-family: monospace;
+    padding: 20px;
+    height:60px;
+    width:90%;
+    border-radius:0px;
+    border:none;
+}
+select {
+    height: 60px;
+    border: none;
+    width: 10%;
+    background-color: #e91e63;
+    font-family: monospace;
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom:0px;
+}
+option {
+    height: 60px;
+    border: none;
+    color: #051B2B;
+    background:#ff1b6f;
+}
